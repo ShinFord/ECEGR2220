@@ -1,0 +1,28 @@
+# Compile of introvhdl.vhd was successful.
+# Compile of tintro.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.testintro
+# vsim -voptargs="+acc" work.testintro 
+# Start time: 19:46:15 on Jun 06,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testintro(only)#1
+# Loading work.intro(behavior)#1
+add wave -position insertpoint sim:/testintro/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit
+# End time: 20:22:16 on Jun 06,2023, Elapsed time: 0:36:01
+# Errors: 0, Warnings: 6
