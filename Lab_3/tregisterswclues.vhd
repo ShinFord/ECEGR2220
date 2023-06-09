@@ -34,7 +34,7 @@ ARCHITECTURE behavior OF testreg_vhd IS
 	
 	COMPONENT shift_register
 	PORT(	datain: in std_logic_vector(31 downto 0);
-	   dir: in std_logic;
+	   	dir: in std_logic;
 		shamt:	in std_logic_vector(4 downto 0);
 		dataout: out std_logic_vector(31 downto 0));
 	END COMPONENT;
