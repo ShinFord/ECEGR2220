@@ -76,9 +76,9 @@ BEGIN
 		datain_b <= X"00000123";
 		control  <= "10000";		-- Control in binary (ADD and ADDI test)
 		wait for 20 ns; 			-- result = 0x11223467  and zeroOut = 0
-		control <= "10010"; --ANDi, result = 0x00000100 and zeroOut = 0
+		control <= "10010"; --ANDi, result = 0x00000030 and zeroOut = 0
 		wait for 20 ns;		
-		control <= "10011"; --ORi, result = 0x11223367 and zeroOut = 0
+		control <= "10011"; --ORi, result = 0x00AB417B and zeroOut = 0
 		wait for 20 ns;	
 		control <= "10101"; --Right i shift 1, result = 0x089119A2 and zeroOut = 0
 		wait for 20 ns;	

@@ -151,7 +151,7 @@ begin
 	ALU_addsub: adder_subtracter PORT MAP (DataIn1, DataIn2, addorsub, addsub_out, carryout);
 	ALU_addsubi: adder_subtracter PORT MAP (DataIn1, DataIn2, addorsub, addsub_out_i, carryout);
 	ALU_shift: shift_register PORT MAP (DataIn1, dirCtrl, ALUCtrl, shift_out);
-	ALU_shifti: shift_register PORT MAP (DataIn1, dirCtrl, ALUCtrl, shift_out_i);
+	ALU_shift1: shift_register PORT MAP (DataIn1, dirCtrl, ALUCtrl, shift_out_i);
 	and_out <= DataIn1 AND DataIn2;
 	and_out_i <= DataIn1 AND DataIn2;
 	or_out <= DataIn1 OR DataIn2;
