@@ -1,0 +1,31 @@
+C:/Users/shinf/OneDrive/Documents/GitHub/ECEGR2220/Lab_5/Memory.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/shinf/OneDrive/Documents/GitHub/ECEGR2220/Lab_5/Memory.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bitstorage
+-- Compiling architecture memlike of bitstorage
+-- Compiling entity register8
+-- Compiling architecture memmy of register8
+-- Compiling entity register32
+-- Compiling architecture biggermem of register32
+-- Compiling entity RAM
+-- Compiling architecture staticRAM of RAM
+-- Compiling entity Registers
+-- Compiling architecture remember of Registers
+
+} {} {}} C:/Users/shinf/OneDrive/Documents/GitHub/ECEGR2220/Lab_5/tMemory.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/shinf/OneDrive/Documents/GitHub/ECEGR2220/Lab_5/tMemory.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tMemory_vhd
+-- Compiling architecture behavior of tMemory_vhd
+
+} {} {}}
